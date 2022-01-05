@@ -1,0 +1,25 @@
+{
+  "name": "aws-lambda-testbed",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node ./make.js"
+  },
+  "dependencies": {
+    "archiver": "~0.16.0",
+    "aws-sdk": "~2.1.48",
+    "dotenv": "^4.0.0",
+    "emailjs": "^0.3.16",
+    "moment": "~2.10.3",
+    "node-fs-extra": "^0.8.2",
+    "prompt": "~0.2.14",
+    "string": "^3.3.3",
+    "wrench": "^1.5.9"
+  },
+  "exclude_deps": [
+    "archiver",
+    "prompt",
+    "wrench",
+    "node-fs-extra"
+  ]
+}
